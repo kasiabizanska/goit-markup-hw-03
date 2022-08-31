@@ -15,6 +15,15 @@ ul {
   list-style-type: none;
 }
 
+ul,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--grey);
@@ -74,6 +83,11 @@ body {
 
 .listed-menu-address: {
   color: var(--blue);
+}
+
+.conteiner-vision-section {
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .vision-section {
@@ -153,6 +167,29 @@ body {
   color: #757575;
 }
 
+
+.team {
+  background-color: #f5f4fa;
+  padding: 94px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-box{
+  background: #FFFFFF;
+  /* material shadow v1 */
+  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px; 
+}
+
+
+
 .section-header {
   font-size: 36px;
   line-height: 1.17;
@@ -167,11 +204,10 @@ body {
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--header-color);
+  margin: 30px 0 10px 0;
 }
 
 .departament {
@@ -179,16 +215,20 @@ body {
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--grey);
+  margin-bottom: 30px;
+}
+
+.footer-container {
+  margin-left: 215px;
 }
 
 .footer {
   background: #2f303a;
   color: var(--white);
+  padding: 60px 0;
 }
 
 .logo-studio-end {
@@ -198,9 +238,11 @@ body {
 .address {
   color: var(--white);
   font-style: normal;
+  margin-top: 20px;
 }
 .footer-link {
   list-style: none;
+  margin-top: 9px;
   color: var(--white);
   font-weight: 400;
   font-size: 14px;
@@ -209,6 +251,15 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--blue);
+}
+
+.container-contact-list {
+  list-style: none;
 }
 
 .portfolio-button {
@@ -252,4 +303,15 @@ body {
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: var(--grey);
+}
+
+.overlay {
+  position: relative;
+  width: 1600px;
+  height: auto;
+  background: #ffffff;
+}
+
+.overlay-portfolio {
+  background: #e5e5e5;
 }
