@@ -17,36 +17,38 @@
     <title>Zadanie domowe#3</title>
   </head>
   <body>
-    <div class="overlay-portfolio">
+    <div class="overlay">
       <header class="menu-top">
-        <a class="logo-web" href="index.html"
-          >Web<span class="logo-studio">Studio </span></a
-        >
-        <nav class="listed-menu">
-          <ul>
-            <li><a class="listed-menu-link" href="./agencja">Agencja</a></li>
+        <div class="container-menu">
+          <a class="logo-web" href="index.html"
+            >Web<span class="logo-studio">Studio </span></a
+          >
+          <nav class="listed-menu">
+            <ul class="li-menu">
+              <li><a class="listed-menu-link" href="./agencja">Agencja</a></li>
+              <li>
+                <a class="listed-menu-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="listed-menu-link" href="./kontakt"> Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="li-address">
             <li>
-              <a class="listed-menu-link" href="portfolio.html">Portfolio</a>
+              <a class="listed-menu-address" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </li>
-            <li><a class="listed-menu-link" href="./kontakt"> Kontakt</a></li>
+            <li>
+              <a class="listed-menu-address" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
           </ul>
-        </nav>
-        <ul>
-          <li>
-            <a class="listed-menu-address" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="listed-menu-address" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
+        </div>
       </header>
       <main>
         <section>
-          <ul>
+          <ul class="li-portfolio">
             <li>
               <button type="button" class="portfolio-button">Wszystkie</button>
             </li>
@@ -65,7 +67,7 @@
           </ul>
         </section>
         <section>
-          <ul>
+          <ul class="li-items">
             <li>
               <img
                 src="https://github.com/kasiabizanska/goit-markup-hw-02/blob/main/images/image8.jpg?raw=true"
@@ -162,22 +164,28 @@
         </section>
       </main>
       <footer class="footer">
-        <a class="logo-web" href="index.html"
-          >Web<span class="logo-studio-end">Studio </span></a
-        >
-        <address class="address">
-          m. Warszawa, Aleje Jerozolimskie 21
-          <ul>
-            <li>
-              <a class="footer-link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer-link" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
+        <div class="footer-container">
+          <a class="logo-web" href="index.html"
+            >Web<span class="logo-studio-end">Studio </span></a
+          >
+          <address class="address">
+            m. Warszawa, Aleje Jerozolimskie 21
+            <div class="container-contact-list">
+              <ul>
+                <li>
+                  <a class="footer-link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-link" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </address>
+        </div>
       </footer>
     </div>
   </body>
