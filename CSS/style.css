@@ -30,9 +30,16 @@ body {
   width: 1600px;
 }
 
+.container {
+  width: 1600px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
 .overlay {
   position: relative;
-  width: 1600px;
   height: auto;
   background: #ffffff;
 }
@@ -42,15 +49,15 @@ body {
 .container-menu {
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
   width: 100%;
-  margin: auto;
   padding: 25px 0;
   align-items: center;
+  margin-left: 215px;
 }
 
 .menu-top {
   background-color: white;
+  margin: auto;
 }
 
 .logo-web {
@@ -59,7 +66,6 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 
@@ -111,7 +117,6 @@ body {
 
 /* vision */
 .conteiner-vision-section {
-  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,6 +131,7 @@ body {
   justify-content: center;
   background-color: var(--darkgrey);
   padding: 200px, 0;
+  margin: auto;
 }
 
 .vision {
@@ -190,12 +196,13 @@ body {
 .container-advantages {
   width: 1200px;
 }
+
 .li-advantages {
-  padding: 94px 0;
   display: flex;
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+  
 }
 
 .advantages-h {
@@ -207,11 +214,10 @@ body {
 }
 
 .advantages-p {
-  padding: 10px, 0;
+  padding: 0, 10px;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -228,12 +234,13 @@ body {
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+  padding-left: 215px;
 }
 
 /* team */
 .team {
   background-color: #f5f4fa;
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .team-list {
@@ -246,7 +253,6 @@ body {
 .team-box {
   background: #ffffff;
   /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -257,8 +263,8 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--header-color);
+  padding-bottom: 94px, 0;
 }
 
 .name {
@@ -286,6 +292,7 @@ body {
 /* footer */
 
 .footer-container {
+  margin: auto;
   margin-left: 215px;
 }
 
@@ -327,11 +334,16 @@ body {
 }
 
 /* portfolio */
+
+.header-border {
+  border: 1px solid #ececec;
+}
+
 .li-portfolio {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin: 94px 0;
+  margin: auto 0;
 }
 
 .portfolio-button {
@@ -339,7 +351,6 @@ body {
   font-size: 16px;
   line-height: 26px;
   /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -359,7 +370,13 @@ body {
   color: var(--white);
   background-color: var(--blue);
 }
-
+.li-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 215px 94px 215px;
+}
 .portfolio-header {
   font-weight: 700;
   font-size: 18px;
@@ -375,12 +392,4 @@ body {
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: var(--grey);
-}
-
-.li-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 50px 215px 94px 0;
 }
