@@ -202,7 +202,6 @@ body {
   flex-direction: row;
   gap: 30px;
   justify-content: center;
-  
 }
 
 .advantages-h {
@@ -264,7 +263,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-  padding-bottom: 94px, 0;
+  padding-bottom: 94px;
 }
 
 .name {
