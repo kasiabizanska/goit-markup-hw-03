@@ -224,6 +224,7 @@ body {
 .services {
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .li-services {
@@ -232,6 +233,10 @@ body {
   gap: 30px;
   justify-content: center;
   padding: 94px, 215px;
+}
+
+.service-img {
+  padding-bottom: 94px;
 }
 
 /* team */
